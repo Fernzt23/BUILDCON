@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example 2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!--  -->
+    <!-- NAVBAR -->
+    <!--  -->
+
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><span class="text-warning">Build</span>Con</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--  -->
+    <!-- CAROUSEL -->
+    <!--  -->
+
+    <main>
+      <section
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <figure class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/home-1.jpg" class="d-block w-100" alt="House1" />
+            <article class="carousel-caption">
+              <h5>Your Dream House</h5>
+              <p>
+                Where timeless elegance meets modern comfort and every detail is
+                crafted to perfection.
+              </p>
+              <a href="#" class="btn btn-warning mt-3">Learn more</a>
+            </article>
+          </figure>
+          <figure class="carousel-item" data-bs-interval="3000">
+            <img src="./img/home-2.jpg" class="d-block w-100" alt="House2" />
+            <article class="carousel-caption">
+              <h5>Always Dedicated</h5>
+              <p>A residence that goes beyond the ordinary.</p>
+              <a href="#" class="btn btn-warning mt-3">Learn more</a>
+            </article>
+          </figure>
+          <figure class="carousel-item" data-bs-interval="3000">
+            <img src="./img/home-3.jpg" class="d-block w-100" alt="House3" />
+            <article class="carousel-caption">
+              <h5>True Construction</h5>
+              <p>
+                Our commitment goes beyond building structures; we create
+                enduring spaces that stand the test of time.
+              </p>
+              <a href="#" class="btn btn-warning mt-3">Learn more</a>
+            </article>
+          </figure>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+
+      <!--  -->
+      <!--ABOUT SECTION  -->
+      <!--  -->
+      <section id="about" class="about section-padding container">
+        <div class="row">
+          <figure class="col-lg-4 col-md-12 col-12 about-img">
+            <img src="img/about.jpg" alt="about" class="img-fluid" />
+          </figure>
+          <article class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5 about-text">
+            <h2>
+              We Provide Best Quality Products <br />
+              Services Ever
+            </h2>
+            <p>
+              Our dedication to quality is unwavering, ensuring that every
+              product and service we offer is crafted with precision and
+              designed to exceed expectations.What sets us apart is not just the
+              quality of our offerings, but also our relentless pursuit of
+              customer satisfaction. Our team of experts is driven by a passion
+              for delivering unparalleled value to our clients. We believe in
+              building lasting relationships based on trust, reliability, and
+              the consistent delivery of exceptional results.
+            </p>
+            <a href="#" class="btn btn-warning">Learn More</a>
+          </article>
+        </div>
+      </section>
+
+      <!--  -->
+      <!-- SERVICES SECTION -->
+      <!--  -->
+
+      <section id="services" class="services section-padding container">
+        <article class="section-header text-center pb-5">
+          <h2 class="fs-1">Our Services</h2>
+          <p>
+            We take pride in delivering a diverse <br />range of services that
+            epitomize <br />
+            quality and excellence.
+          </p>
+        </article>
+
+        <div class="row">
+          <article class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-subtract"></i>
+                <h3 class="card-title">Best Quality</h3>
+                <p class="card-text">
+                  Our commitment to excellence is embedded in every service we
+                  offer. Whether it's precision in construction, innovation in
+                  design, or reliability in maintenance, we strive for the
+                  highest standards.
+                </p>
+                <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-slack"></i>
+                <h3 class="card-title">Sustainability</h3>
+                <p class="card-text">
+                  We are dedicated to providing services that not only meet the
+                  highest standards of quality but also prioritize environmental
+                  responsibility. From eco-conscious construction practices to
+                  energy-efficient designs.
+                </p>
+                <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-stars"></i>
+                <h3 class="card-title">Integrity</h3>
+                <p class="card-text">
+                  We believe in conducting business with the utmost honesty,
+                  transparency, and ethical standards. Our commitment to
+                  integrity permeates every project, ensuring that we prioritize
+                  the trust and satisfaction of our clients above all else.
+                </p>
+                <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--  -->
+      <!-- PORTFOLIO SECTION -->
+      <!--  -->
+
+      <section id="portfolio" class="portfolio section-padding container">
+        <article class="row col-md-12 section-header text-center pb-5">
+          <h2 class="fs-1">Our Projects</h2>
+          <p>
+            A collection where innovation meets <br />precision, highlighting
+            our commitment <br />to quality and craftsmanship
+          </p>
+        </article>
+
+        <div class="row">
+          <article class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <figure class="img-area mb-4">
+                  <img
+                    src="img/project-1.jpg"
+                    alt="project1"
+                    class="img-fluid"
+                  />
+                </figure>
+                <h3 class="card-title">Building Make</h3>
+                <p class="card-text">
+                  A testament to our expertise where each project is a fusion of
+                  visionary design and meticulous construction, creating spaces
+                  that stand as enduring works of art.
+                </p>
+                <button class="btn btn-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <figure class="img-area mb-4">
+                  <img
+                    src="img/project-2.jpg"
+                    alt="project1"
+                    class="img-fluid"
+                  />
+                </figure>
+                <h3 class="card-title">Building Make</h3>
+                <p class="card-text">
+                  A testament to our expertise where each project is a fusion of
+                  visionary design and meticulous construction, creating spaces
+                  that stand as enduring works of art.
+                </p>
+                <button class="btn btn-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <figure class="img-area mb-4">
+                  <img
+                    src="img/project-3.jpg"
+                    alt="project1"
+                    class="img-fluid"
+                  />
+                </figure>
+                <h3 class="card-title">Building Make</h3>
+                <p class="card-text">
+                  A testament to our expertise where each project is a fusion of
+                  visionary design and meticulous construction, creating spaces
+                  that stand as enduring works of art.
+                </p>
+                <button class="btn btn-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--  -->
+      <!--  TEAM SECTION-->
+      <!--  -->
+
+      <section class="team section-padding" id="team">
+        <div class="container">
+          <article class="section-header text-center pb-5">
+            <h2 class="fs-1">Our Team</h2>
+            <p>
+              Collective of passionate individuals <br />
+              driving innovation, creativity, and <br />
+              excellence in every project.
+            </p>
+          </article>
+          <div class="row">
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="img/team-1.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                  <h3 class="card-title py-2">Slash Luján Carrión</h3>
+                  <p class="card-text">
+                    A dedicated professional bringing expertise, creativity, and
+                    unwavering commitment to our collaborative vision.
+                  </p>
+
+                  <p class="socials">
+                    <i class="bi bi-twitter-x text-dark mx-1"></i>
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="img/team-2.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                  <h3 class="card-title py-2">Choque Pegalon</h3>
+                  <p class="card-text">
+                    A dynamic individual whose passion and skills contribute to
+                    the synergy of our team, elevating every project to new
+                    heights..
+                  </p>
+
+                  <p class="socials">
+                    <i class="bi bi-twitter-x text-dark mx-1"></i>
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="img/team-3.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                  <h3 class="card-title py-2">Eva Luján Carrión</h3>
+                  <p class="card-text">
+                    A key player in our team, blending innovation and
+                    proficiency to shape the success of our endeavors.
+                  </p>
+
+                  <p class="socials">
+                    <i class="bi bi-twitter-x text-dark mx-1"></i>
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="img/team-4.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                  <h3 class="card-title py-2">Payasita Luján Carrión</h3>
+                  <p class="card-text">
+                    A driving force behind our projects, combining talent and
+                    dedication to bring unparalleled excellence to every
+                    endeavor.
+                  </p>
+
+                  <p class="socials">
+                    <i class="bi bi-twitter-x text-dark mx-1"></i>
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--  -->
+      <!-- CONTACT SECTION -->
+      <!--  -->
+
+      <section id="contact" class="contact-section contact section-padding">
+        <div class="container">
+          <article class="row col-md-12 section-header text-center pb-5">
+            <h2 class="fs-1">Contact Us</h2>
+            <p>
+              Your gateway to seamless <br />
+              communication and personalized <br />service, where our team is
+              ready to <br />
+              assist you with any inquiries <br />or project discussions
+            </p>
+          </article>
+
+          <div class="row m-0 col-md-12 p-0 py-4 bg-white">
+            <form action="#" class="rounded-3 py-4 px-5 m-auto">
+              <div class="row">
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    required
+                    placeholder="Your full name"
+                  />
+                </div>
+                <div class="col-md-12">
+                  <input
+                    type="email"
+                    class="form-control mb-3"
+                    required
+                    placeholder="Your Email Here"
+                  />
+                </div>
+                <div class="col-md-12">
+                  <textarea
+                    rows="3"
+                    required
+                    class="form-control mb-3"
+                    placeholder="Your Query Here"
+                  ></textarea>
+                </div>
+                <div class="col-md-12">
+                  <button
+                    class="btn btn-warning py-2 fs-5 fw-bold w-100 h-auto"
+                  >
+                    Send Now
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--  -->
+    <!--  -->
+    <!--FOOTER  -->
+    <!--  -->
+    <!--  -->
+
+    <footer class="bg-dark p-2 text-center container">
+      <p class="text-white">
+        &copy; All Rights Reserved 2024
+        <span class="text-center text-warning">BUILD</span>CON
+      </p>
+    </footer>
+
+    <!--  -->
+    <!-- JAVASCRIPT -->
+    <!--  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
